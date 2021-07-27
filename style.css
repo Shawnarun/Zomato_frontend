@@ -18,9 +18,7 @@ button {
   padding: 0 15px;
   margin: 0 auto;
 }
-section {
-  margin: 20px 0;
-}
+
 /*------------------------------------------------Nav bar-----------------------------------------------------*/
 .navbar {
   position: sticky;
@@ -73,6 +71,7 @@ section {
   width: 100%;
   right: auto;
   left: auto;
+  border-radius: 6px;
   z-index: 3;
   box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
 }
@@ -97,11 +96,11 @@ section {
 @media (min-width: 768px) {
   .hero_container {
     display: flex;
-    align-items: center;
     flex-direction: row-reverse;
+    align-items: center;
   }
   .hero__image {
-    margin: 2rem;
+    margin-top: 2rem;
   }
   .hero__text {
     font-size: 2rem;
@@ -119,7 +118,7 @@ section {
   .navbar__brand {
     width: 150px;
   }
-  .navbar__button {
+  .primary__button {
     font-size: 20px;
     padding: 15px 20px;
     font-weight: bold;
